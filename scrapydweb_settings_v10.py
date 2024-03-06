@@ -101,7 +101,7 @@ SCRAPYD_LOG_EXTENSIONS = ['.log', '.log.gz', '.txt']
 # Note that you can run the LogParser service separately via command 'logparser' as you like.
 # Run 'logparser -h' to find out the config file of LogParser for more advanced settings.
 # Visit https://github.com/my8100/logparser for more info.
-ENABLE_LOGPARSER = True
+ENABLE_LOGPARSER = False
 
 # Whether to backup the stats json files locally after you visit the Stats page of a job
 # so that it is still accessible even if the original logfile has been deleted.
